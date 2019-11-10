@@ -23,7 +23,6 @@ class Person:
 
 my_class = Person
 my_class()
-
 """
 pudong
 changning
