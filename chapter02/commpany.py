@@ -15,6 +15,7 @@ class Company(object):
         self.employee = employee_list
 
     def __getitem__(self, item):
+        """使类变成可迭代对象."""
         return self.employee[item]
 
     def __iter__(self):
