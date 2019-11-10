@@ -23,6 +23,7 @@ class Person:
 
 my_class = Person
 my_class()
+
 """
 pudong
 changning
@@ -37,6 +38,7 @@ obj_list.append(my_class)
 
 for item in obj_list:
     print(item())
+
     """
     zhang
     None
@@ -51,6 +53,7 @@ def decotator():
 
 my_dec = decotator()
 my_dec()
+
 """
 dec start...
 zhang
