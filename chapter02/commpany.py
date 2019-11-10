@@ -17,6 +17,9 @@ class Company(object):
     def __getitem__(self, item):
         return self.employee[item]
 
+    def __len__(self):
+        return len(self.employee)
+
 
 company = Company(['pudong', 'jiading', 'changning'])
 
@@ -41,3 +44,15 @@ jiading
 changning
 """
 
+
+## 切片
+
+company1 = company[:2]
+print('----------')
+for em in company1:
+    print(em)
+
+
+##
+print('--------')
+print(len(company))
