@@ -21,5 +21,7 @@ class Student(Person):
 
 if __name__ == '__main__':
     user = Student('wuhan')
-    print(user.__dict__)
-    print(dir(user.__dict__))
+    print(user.__dict__) #  {'school_name': 'wuhan'}
+    print(dir(user.__dict__))   
+    print(user.name)  # eric  Student继承Person. user.name 向上传递
+    print(Person.__doc__) # person.
