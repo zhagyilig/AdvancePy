@@ -14,7 +14,10 @@ class A:
     # self 这个类的实例
     def __init__(self, x, y):
         self.x = x
-        self.y = y
+        self.__y = y
+
+    def print_y(self):
+        return self.__y
 
 a = A(1,2)
-print(a.x, a.y, a.aa)
+print(a.x, a.aa, a.print_y())
