@@ -6,7 +6,7 @@
 @Date    : 2018-08-10 08:05
 @Soft    : PyCharm
 @Desc    : python中一切皆对象
-@Docs    : 
+@Docs    :
 '''
 
 
@@ -56,5 +56,5 @@ my_dec()
 
 """
 dec start...
-zhang
+jiading
 """
