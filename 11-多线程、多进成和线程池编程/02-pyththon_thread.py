@@ -16,8 +16,6 @@ from threading import Thread
 # 对于io操作来说，多线程和多进程性能差别不大
 
 # 1.通过Thread类实例化
-
-
 def get_detail_html(url):
     print("get detail html started")
     time.sleep(2)
