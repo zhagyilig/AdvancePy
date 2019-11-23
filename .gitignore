@@ -17,3 +17,14 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+.project
+.settings/
+.prefs
+.pydevproject
+.idea/
+.idea
+.DS_Store
+.cache
+*.pyc
+*.html
+*.xlm
