@@ -8,6 +8,9 @@
 '''
 
 
+# （１）紧跟with后面的语句被求值后，返回对象的“__enter__()”方法被调用，这个方法的返回值将被赋值给 as 后面的变量；
+# （２）当with后面的代码块全部被执行完之后，将调用前面返回对象的“__exit__()”方法。
+
 import time
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
 

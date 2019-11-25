@@ -33,11 +33,8 @@ def get_detail_url(queue):
 
 if __name__ == '__main__':
     thread_queue = Queue(maxsize=1000)
-    get_url_thread = threading.Thread(
-        target=get_detail_url, args=(
-            thread_queue,))
+    get_url_thread = threading.Thread(target=get_detail_url, args=(thread_queue,))
     get_url_thread.start()
     for thread in range(2):
-        get_html_thread = threading.Thread(
-            target=get_detail_html, args=(thread_queue,))
+        get_html_thread = threading.Thread(target=get_detail_html, args=(thread_queue,))
         get_html_thread.start()
