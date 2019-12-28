@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 '''
 @Author  :   ericzhang
-@Version :   python3.6
+@Version :   python
 @File    :   slef_ex.py
 @Time    :   2019/11/11 23:53:06
 @Desc    :   pyhon的自省机制：通过一定的机制查询到对象的内部结构
@@ -10,7 +10,6 @@
 
 
 class Person:
-    """person."""
     name = 'eric'
 
 
