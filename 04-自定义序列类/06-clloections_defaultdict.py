@@ -3,7 +3,7 @@
 @Author  :  ericzhang
 @Version :  python3
 @Date    :  2019-12-29 23:02
-@Desc    :            
+@Desc    :  字典的子类，提供了一个工厂函数，为字典查询提供一个默认值
 @Docs    : 
 """
 

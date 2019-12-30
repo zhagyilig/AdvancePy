@@ -25,10 +25,3 @@ print(user.name, user.age)  # 取tpuple中的值
 
 # 创建一个 user 的类
 user = namedtuple('User', ['name', 'age'])
-
-
-
-user  = namedtuple('User', ['name', 'age'])
-
-
-import requests

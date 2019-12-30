@@ -19,4 +19,4 @@ seq_list = [n for n in range(20)]
 print(seq_list)
 
 print(bisect.insort_left(seq_list, 11))
-print(seq_list)
+print(bisect.bisect_left(seq_list, 0))
