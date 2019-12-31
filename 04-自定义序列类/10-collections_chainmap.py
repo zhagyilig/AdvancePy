@@ -31,5 +31,3 @@ print(new_dict)
 """:return
 ChainMap({'user1': 'ericzhang1', 'user2': 'ericzhang2'}, {'user2': 'ericzhang2', 'user3': 'ericzhang3'})
 """
-
-new_dict.maps
