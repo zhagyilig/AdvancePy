@@ -23,4 +23,3 @@ name 'a' is not defined
 class A:
 	def __del__(self):
 		pass
-	 
