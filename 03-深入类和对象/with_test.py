@@ -7,6 +7,7 @@
 @Docs    : 
 """
 
+# http://effbot.org/zone/python-with-statement.htm
 
 # 1. 上下文管理器协议
 

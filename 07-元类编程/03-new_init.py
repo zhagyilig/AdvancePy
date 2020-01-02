@@ -11,9 +11,9 @@ class User:
         pass
 a = int()
 
-#new 是用来控制对象的生成过程， 在对象生成之前
-#init是用来完善对象的
-#如果new方法不返回对象， 则不会调用init函数
+# new 是用来控制对象的生成过程， 在对象生成之前
+# init 是用来完善对象的
+# 如果new方法不返回对象， 则不会调用init函数
 
 if __name__ == "__main__":
     user = User(name="ericzhang")
