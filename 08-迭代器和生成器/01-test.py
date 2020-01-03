@@ -36,3 +36,7 @@ True
 my_list_iterator = iter(my_list)
 print(isinstance(my_list_iterator, Iterator))
 print(isinstance(my_list, Iterable))
+
+
+str()
+repr()
